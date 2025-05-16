@@ -1,0 +1,97 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+  theme: {
+    extend: {
+      colors: {
+        primary: {
+          50: '#e6f0ff',
+          100: '#b3d1ff',
+          200: '#80b3ff',
+          300: '#4d94ff',
+          400: '#1a75ff',
+          500: '#0066ff',
+          600: '#0052cc',
+          700: '#003d99',
+          800: '#002966',
+          900: '#001433',
+        },
+        secondary: {
+          50: '#e6f7f4',
+          100: '#b3e8e0',
+          200: '#80d8cb',
+          300: '#4dc9b7',
+          400: '#1ab9a2',
+          500: '#00aa8e',
+          600: '#008872',
+          700: '#006655',
+          800: '#004439',
+          900: '#00221c',
+        },
+        accent: {
+          50: '#fff0e6',
+          100: '#ffd1b3',
+          200: '#ffb380',
+          300: '#ff944d',
+          400: '#ff751a',
+          500: '#ff6600',
+          600: '#cc5200',
+          700: '#993d00',
+          800: '#662900',
+          900: '#331400',
+        },
+        success: {
+          500: '#10b981',
+        },
+        warning: {
+          500: '#f59e0b',
+        },
+        error: {
+          500: '#ef4444',
+        },
+        neutral: {
+          50: '#f8fafc',
+          100: '#f1f5f9',
+          200: '#e2e8f0',
+          300: '#cbd5e1',
+          400: '#94a3b8',
+          500: '#64748b',
+          600: '#475569',
+          700: '#334155',
+          800: '#1e293b',
+          900: '#0f172a',
+        },
+      },
+      fontFamily: {
+        sans: [
+          'Inter var',
+          'ui-sans-serif',
+          'system-ui',
+          '-apple-system',
+          'BlinkMacSystemFont',
+          'Segoe UI',
+          'Roboto',
+          'Helvetica Neue',
+          'Arial',
+          'sans-serif',
+        ],
+      },
+      spacing: {
+        '1': '8px',
+        '2': '16px',
+        '3': '24px',
+        '4': '32px',
+        '5': '40px',
+        '6': '48px',
+      },
+      boxShadow: {
+        'card': '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)',
+        'card-hover': '0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)',
+      },
+      borderRadius: {
+        'card': '0.75rem',
+      },
+    },
+  },
+  plugins: [],
+};
